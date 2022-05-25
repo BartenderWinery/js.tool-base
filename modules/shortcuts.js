@@ -5,7 +5,7 @@ function AddEvent(object, id, func) {
 AddEvent(window,'keydown',function(e){
     console.log(e.keyCode+""+e.ctrlKey)
     switch(e.keyCode){
-        case e.ctrlKey && 1:
+        case e.ctrlKey && 81:
             e.preventDefault();
             break; 
     }
