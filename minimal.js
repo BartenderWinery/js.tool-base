@@ -1,9 +1,1 @@
-const pos=[0,0,0,0];
-var tool=document.body.insertAdjacentHTML("beforeEnd", "<div></div>");
-e = e || window.event;
-position[0] = position[2] - e.clientX;
-position[1] = position[3] - e.clientY;
-position[2] = e.clientX;
-position[3] = e.clientY;
-tool.style.top = (tool.offsetTop - position[1]) + "px";
-tool.style.left = (tool.offsetLeft - position[0]) + "px";
+document.body.insertAdjacentHTML("beforeEnd", "<div style='position: absolute;margin:0px;overflow:hidden;padding:0px;height:300px;width:500px;top:0'></div>")
