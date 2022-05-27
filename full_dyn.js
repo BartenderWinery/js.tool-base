@@ -1,7 +1,7 @@
 const position = [0,0,0,0]; id=Date.now()
 document.body.insertAdjacentHTML("beforeEnd", "<div id='tool "+id+"' style='position: absolute;margin:0px;resize:both;overflow:hidden;padding:0px;height:300px;width:500px'></div>")
 var tool=document.getElementById("tool "+id) 
-tool.insertAdjacentHTML("beforeEnd", "<div id='con "+id+"' style='margin:0pxheight:25%width:100%top:0padding:0pxmargin:0px'>")
+tool.insertAdjacentHTML("beforeEnd", "<div id='con "+id+"' style='margin:0px;height:25px;width:100%;top:0;padding:0px;margin:0px;position:absolute'>")
 var con=document.getElementById("con "+id)
 function AddEvent(object, id, func) {
     if(object.attachEvent) object.attachEvent("on" + id, function() {func.call(object)})

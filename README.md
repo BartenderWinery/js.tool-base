@@ -1,2 +1,4 @@
-# js.tool base
- Code Template for JS.Bookmark tools
+###### Full function with dyanmic control
+```
+full_dyn.js[Uncompiled]()
+```
